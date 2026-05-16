@@ -33,38 +33,38 @@ if (bars && sidebar && dashboard) {
 
 
 
-// window.addEventListener('scroll', function () {
-//     const el1 = document.getElementById('smart_time');
-//     const el2 = document.getElementById('T-channels');
-//     const el3 = document.getElementById('element3');
-//     const el4 = document.getElementById('element4');
-//     const el5 = document.getElementById('element5');
-//     const el6 = document.getElementById('homework-input');
-//     const el7 = document.getElementById('num');
-//     const el8 = document.getElementById('element8');
-//     const el9 = document.getElementById('progress');
-//     const el10 = document.getElementById('element10');
-//     const el11 = document.getElementById('element11');
-//     const el12 = document.getElementById('element12');
-//     const el13 = document.getElementById('element13');
-//     const el14 = document.getElementById('element14');
-//     const el15 = document.getElementById('element15');
-//     const el16 = document.getElementById('total');
-//     const el17 = document.getElementById('comp');
-//     const el18 = document.getElementById('rem');
-//     const el19 = document.getElementById('progres2s');
-//     [el1, el2, el3, el4, el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16, el17, el18, el19].forEach(el => {
-//         if (el) {
-//             const rect = el.getBoundingClientRect();
-//             if (rect.top < window.innerHeight - 180) {
-//                 el.classList.add('visible');
-//             } else {
-//                 el.classList.remove('visible');
-//             }
-//         }
-//     });
+window.addEventListener('scroll', function () {
+    const el1 = document.getElementById('smart_time');
+    const el2 = document.getElementById('T-channels');
+    const el3 = document.getElementById('element3');
+    const el4 = document.getElementById('element4');
+    const el5 = document.getElementById('element5');
+    const el6 = document.getElementById('homework-input');
+    const el7 = document.getElementById('num');
+    const el8 = document.getElementById('element8');
+    const el9 = document.getElementById('progress');
+    const el10 = document.getElementById('element10');
+    const el11 = document.getElementById('element11');
+    const el12 = document.getElementById('element12');
+    const el13 = document.getElementById('element13');
+    const el14 = document.getElementById('element14');
+    const el15 = document.getElementById('element15');
+    const el16 = document.getElementById('total');
+    const el17 = document.getElementById('comp');
+    const el18 = document.getElementById('rem');
+    const el19 = document.getElementById('progres2s');
+    [el1, el2, el3, el4, el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16, el17, el18, el19].forEach(el => {
+        if (el) {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 180) {
+                el.classList.add('visible');
+            } else {
+                el.classList.remove('visible');
+            }
+        }
+    });
 
-// });
+});
 
 
 
