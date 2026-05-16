@@ -85,9 +85,12 @@ body ::selection{
 }
 
 .jeba{
-    background-color: #0c0000;
-    color: #4c99a3;
+    background-color: #181818;
+    color: #6e6e6e;
     font-weight: 900;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .sidebar ul li {
@@ -670,7 +673,7 @@ input[type="checkbox"] {
     align-items: center;
     border-radius: 10px;
     transition: all 0.3s ease;
-    cursor: pointer;
+    cursor: default;
     line-height: 30px;
 }
 
@@ -725,7 +728,6 @@ input[type="checkbox"] {
     letter-spacing: 1.5px;
     background-color: rgba(196, 33, 33, 0.616);
     color: whitesmoke;
-    font-weight: 400;
 }
 
 .teachers-platforms {
